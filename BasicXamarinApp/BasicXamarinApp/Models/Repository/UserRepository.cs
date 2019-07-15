@@ -1,21 +1,23 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using Android.Graphics;
 using App1.Models;
-using Java.IO;
 
 namespace BasicXamarinApp.Android.Models.Repository
 {
-    public class UserRepository
+    public class UserRepository:IRepository<User>
     {        
         public UserRepository(AppContext appContext)
         {
         }
 
 
-        public List<User> GetAllUsers()
+        public List<User> GetAllEntries()
         {
             var userList = new List<User>();
-            using(AppContext appContext= new AppContext())
+            using(var appContext= new AppContext())
             {
                 userList = appContext.Users.ToList();
             }
@@ -23,48 +25,32 @@ namespace BasicXamarinApp.Android.Models.Repository
             return userList;
         }
 
-        public User GetUserById(int id)
+        public User GetEntryById(int id)
         {
-            User user = null;
-            using(AppContext appContext= new AppContext())
-            {
-                user= appContext.Users.FirstOrDefault(x => x.Id == id);
-            }
-
-            return user;
+            Expression<Func<User, bool>> expression = user => user.Id == id;
+            var foundedUser = GetEntitiesByExpression(expression).FirstOrDefault();
+            return foundedUser;
         }
 
 
-        public List<User> GetUsersByName(string name)
+        public List<User> GetEntriesByName(string name)
+        {
+            
+            Expression<Func<User, bool>> expression = user => user.FirstName == name;
+            var foundedUsers = GetEntitiesByExpression(expression);
+            return foundedUsers;
+
+        }
+
+        public List<User> GetEntitiesByExpression(Expression<Func<User, bool>> expression)
         {
             var users = new List<User>();
-            using(AppContext appContext= new AppContext())
+            using(var appContext= new AppContext())
             {
-                users = appContext.Users.Where(x => x.FirstName == name).ToList();
+                users = appContext.Users.Where(expression).ToList();
             }
 
             return users;
-        }
-
-        public User GetUserByEmail(string email)
-        {
-            User user = null;
-            using(AppContext appContext= new AppContext())
-            {
-                user = appContext.Users.FirstOrDefault(x=>x.Email==email);
-            }
-
-            return user;
-        }
-        
-        public User GetUserByPhoneNumber(string phoneNumber)
-        {
-            User user = null;
-            using(AppContext appContext= new AppContext())
-            {
-                user = appContext.Users.FirstOrDefault(x=>x.PhoneNumber==phoneNumber);
-            }
-            return user;
         }
 
     }

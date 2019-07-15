@@ -38,7 +38,12 @@
           <e p="AppContext.cs" t="Include" />
           <e p="Issue.cs" t="Include" />
           <e p="Repository" t="Include">
+            <e p="IRepository.cs" t="Include" />
+            <e p="IssueRepository.cs" t="Include" />
             <e p="UserRepository.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="IssueServices.cs" t="Include" />
           </e>
           <e p="User.cs" t="Include" />
         </e>

@@ -1,16 +1,18 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using App1.Model;
 
 namespace BasicXamarinApp.Android.Models.Repository
 {
-    public class IssueRepository
+    public class IssueRepository:IRepository<Issue>
     {
         public IssueRepository()
         {
         }
 
-        public List<Issue> GetAllIssues()
+        public List<Issue> GetAllEntries()
         {
             var issues = new List<Issue>();
             using (var appContext = new AppContext())
@@ -20,26 +22,32 @@ namespace BasicXamarinApp.Android.Models.Repository
             return issues;
         }
 
-        public Issue GetIssueById(int id)
+        public Issue GetEntryById(int id)
         {
-            Issue issue = null;
-            using (var appContext = new AppContext())
-            {
-                issue = appContext.Issues.FirstOrDefault(x=>x.Id==id);
-            }
-            return issue;
+            
+            Expression<Func<Issue, bool>> expression = issue => issue.Id == id;
+            var foundedIssue = GetEntitiesByExpression(expression).FirstOrDefault();
+            return foundedIssue;
         }
 
 
-        public Issue GetIssueByName(string name)
+        public List<Issue> GetEntriesByName(string name)
         {
-            Issue issue = null;
+            
+            Expression<Func<Issue, bool>> expression = issue => issue.Name == name;
+            var foundedIssue = GetEntitiesByExpression(expression);
+            return foundedIssue;
+       }
+
+        public List<Issue> GetEntitiesByExpression(Expression<Func<Issue, bool>> expression)
+        {
+            var issues = new List<Issue>();
             using (var appContext = new AppContext())
             {
-                issue = appContext.Issues.FirstOrDefault(x => x.Name == name);
+                issues = appContext.Issues.Where(expression).ToList();
             }
 
-            return issue;
+            return issues;
         }
     }
 }
