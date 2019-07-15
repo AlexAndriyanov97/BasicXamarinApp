@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -19,5 +19,19 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\AppContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Issue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Repository\IssueRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Repository\UserRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\IssueListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\IssueViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\IssueListPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\IssuePage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Settings.config" />
+    <Content Include="$(MSBuildThisFileDirectory)Views\IssueListPage.xaml" />
+    <Content Include="$(MSBuildThisFileDirectory)Views\IssuePage.xaml" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb2121e5-f114-47a8-9e99-6b4f2f6ba9b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/AppContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Repository/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Settings.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/BasicXamarinApp.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/BasicXamarinApp.Android.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/MainActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/MainActivity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/Resources/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.iOS/AppDelegate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.iOS/AppDelegate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.iOS/BasicXamarinApp.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.iOS/BasicXamarinApp.iOS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.iOS/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.iOS/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/BasicXamarinApp.projitems" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/BasicXamarinApp.projitems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/BasicXamarinApp.shproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/BasicXamarinApp.shproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Issue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Issue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/User.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/Resources/Resource.designer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <marker date="1563169307685" expanded="true" signature="29:424" ph="/* ------------------------------------------------------------------------------ ... */" />
+                <marker date="1563169307685" expanded="true" signature="578:261560" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="709:261558" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="741:833" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="878:1064" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="1104:3096" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="2921:3025" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="3058:3086" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="3135:3474" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="3300:3404" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="3436:3464" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="3514:41047" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="40872:40976" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="41009:41037" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="41085:41927" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="41754:41858" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="41889:41917" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="41963:54126" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="53955:54059" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="54088:54116" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="54166:72809" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="72634:72738" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="72771:72799" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="72848:105285" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="105111:105215" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="105247:105275" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="105318:124677" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="124509:124613" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="124639:124667" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="124715:126435" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="126262:126366" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="126397:126425" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="126478:126924" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="126746:126850" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="126886:126914" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="126961:135283" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="135111:135215" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="135245:135273" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="135320:143008" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="142836:142940" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="142970:142998" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="143044:194249" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="194078:194182" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="194211:194239" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="194289:261552" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="194366:195192" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="198156:198196" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="198386:198426" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="198654:198836" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="199502:199572" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="199887:200095" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="200880:200976" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="201350:201420" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="201717:201787" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="202096:202220" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="202700:202824" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="203316:203512" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="204391:204459" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="204750:208008" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="221055:221209" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="221822:221920" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="222356:222398" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="222569:222943" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="224340:224802" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="226779:226849" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="227189:227283" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="227667:227763" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="228145:228215" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="228510:228718" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="229604:229702" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="230089:230327" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="231231:231469" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="232430:232472" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="232682:232776" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="233211:233467" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="234552:234670" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="235229:235295" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="235613:235735" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="236239:236409" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="237089:237553" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="239330:239582" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="240611:240899" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="242001:242095" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="242502:242544" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="242738:242808" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="243099:243277" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="243977:244019" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="244219:244261" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="244453:244935" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="246693:246789" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="247168:247314" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="247879:248279" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="249744:249836" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="250189:250651" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="252299:252575" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="253709:254167" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="255994:256816" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="259756:259906" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="260438:260534" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="260943:261035" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="261377:261481" ph="{...}" />
+                <marker date="1563169307685" expanded="true" signature="261514:261542" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/App.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1563169294607" expanded="true" signature="40:283" ph="&lt;&lt;Application.Resources&gt;&#10;&#10;    &lt;/Application.Resources&gt;.../&gt;" />
+                <marker date="1563169294607" expanded="true" signature="215:268" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <folding>
+                <marker date="1563169639220" expanded="false" signature="6:115" ph="..." />
+                <marker date="1563169639220" expanded="true" signature="156:577" ph="{...}" />
+                <marker date="1563169639220" expanded="true" signature="180:575" ph="{...}" />
+                <marker date="1563169639220" expanded="true" signature="509:569" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/AppContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <marker date="1563170319484" expanded="true" signature="6:73" ph="..." />
+                <marker date="1563170319484" expanded="true" signature="115:345" ph="{...}" />
+                <marker date="1563170319484" expanded="true" signature="155:343" ph="{...}" />
+                <marker date="1563170319484" expanded="true" signature="317:337" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Settings.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Issue.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <marker date="1563169556412" expanded="true" signature="6:66" ph="..." />
+                <marker date="1563169556412" expanded="true" signature="88:396" ph="{...}" />
+                <marker date="1563169556412" expanded="true" signature="113:394" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Repository/UserRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <folding>
+                <marker date="1563170727941" expanded="true" signature="6:86" ph="..." />
+                <marker date="1563170727941" expanded="true" signature="139:1161" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="173:1159" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="240:260" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="302:538" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="416:498" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="579:814" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="678:778" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="870:1129" ph="{...}" />
+                <marker date="1563170727941" expanded="true" signature="981:1092" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Repository/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Issue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/AppContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/Resources/Resource.designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Settings.config" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Issue.cs" />
+        <option value="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/User.cs" />
+        <option value="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/AppContext.cs" />
+        <option value="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/settings.json" />
+        <option value="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Settings.config" />
+        <option value="$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Repository/UserRepository.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="BasicXamarinApp.Android/invalid/Android Facet - BasicXamarinApp.Android" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="216" />
+    <option name="y" value="26" />
+    <option name="width" value="1682" />
+    <option name="height" value="993" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicXamarinApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicXamarinApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BasicXamarinApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicXamarinApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BasicXamarinApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicXamarinApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BasicXamarinApp.Android" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicXamarinApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BasicXamarinApp.iOS" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Новая папка/SimpleXamarinApp-master/App1/App1/Models" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Xamarin.Android.Android Default">
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb2121e5-f114-47a8-9e99-6b4f2f6ba9b7" name="Default Changelist" comment="" />
+      <created>1563169297909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563169297909</updated>
+      <workItem from="1563169299366" duration="1421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1421000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="216" y="26" width="1682" height="993" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="DB Browser" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Captures" />
+      <window_info id="Azure Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969174" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="XAML Preview" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" weight="0.32906976" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Azure Activity Log" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp.Android/Resources/Resource.designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <marker date="1563169307685" expanded="true" signature="29:424" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1563169307685" expanded="true" signature="578:261560" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="709:261558" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="741:833" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="878:1064" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="1104:3096" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="2921:3025" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="3058:3086" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="3135:3474" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="3300:3404" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="3436:3464" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="3514:41047" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="40872:40976" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="41009:41037" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="41085:41927" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="41754:41858" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="41889:41917" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="41963:54126" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="53955:54059" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="54088:54116" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="54166:72809" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="72634:72738" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="72771:72799" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="72848:105285" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="105111:105215" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="105247:105275" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="105318:124677" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="124509:124613" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="124639:124667" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="124715:126435" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="126262:126366" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="126397:126425" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="126478:126924" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="126746:126850" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="126886:126914" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="126961:135283" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="135111:135215" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="135245:135273" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="135320:143008" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="142836:142940" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="142970:142998" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="143044:194249" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="194078:194182" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="194211:194239" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="194289:261552" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="194366:195192" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="198156:198196" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="198386:198426" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="198654:198836" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="199502:199572" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="199887:200095" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="200880:200976" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="201350:201420" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="201717:201787" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="202096:202220" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="202700:202824" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="203316:203512" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="204391:204459" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="204750:208008" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="221055:221209" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="221822:221920" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="222356:222398" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="222569:222943" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="224340:224802" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="226779:226849" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="227189:227283" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="227667:227763" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="228145:228215" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="228510:228718" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="229604:229702" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="230089:230327" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="231231:231469" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="232430:232472" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="232682:232776" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="233211:233467" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="234552:234670" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="235229:235295" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="235613:235735" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="236239:236409" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="237089:237553" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="239330:239582" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="240611:240899" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="242001:242095" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="242502:242544" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="242738:242808" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="243099:243277" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="243977:244019" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="244219:244261" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="244453:244935" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="246693:246789" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="247168:247314" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="247879:248279" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="249744:249836" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="250189:250651" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="252299:252575" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="253709:254167" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="255994:256816" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="259756:259906" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="260438:260534" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="260943:261035" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="261377:261481" ph="{...}" />
+            <marker date="1563169307685" expanded="true" signature="261514:261542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1563169294607" expanded="true" signature="40:283" ph="&lt;&lt;Application.Resources&gt;&#10;&#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1563169294607" expanded="true" signature="215:268" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <marker date="1563169639220" expanded="false" signature="6:115" ph="..." />
+            <marker date="1563169639220" expanded="true" signature="156:577" ph="{...}" />
+            <marker date="1563169639220" expanded="true" signature="180:575" ph="{...}" />
+            <marker date="1563169639220" expanded="true" signature="509:569" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Settings.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/AppContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1563170319484" expanded="true" signature="6:73" ph="..." />
+            <marker date="1563170319484" expanded="true" signature="115:345" ph="{...}" />
+            <marker date="1563170319484" expanded="true" signature="155:343" ph="{...}" />
+            <marker date="1563170319484" expanded="true" signature="317:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Issue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1563169556412" expanded="true" signature="6:66" ph="..." />
+            <marker date="1563169556412" expanded="true" signature="88:396" ph="{...}" />
+            <marker date="1563169556412" expanded="true" signature="113:394" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicXamarinApp/BasicXamarinApp/Models/Repository/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <marker date="1563170727941" expanded="true" signature="6:86" ph="..." />
+            <marker date="1563170727941" expanded="true" signature="139:1161" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="173:1159" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="240:260" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="302:538" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="416:498" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="579:814" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="678:778" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="870:1129" ph="{...}" />
+            <marker date="1563170727941" expanded="true" signature="981:1092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
