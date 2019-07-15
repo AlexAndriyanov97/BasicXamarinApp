@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.IssueListPage">
+  <ContentPage.Content>
+    <StackLayout>
+      <Button Text="Добавить" Command="{Binding CreateIssueCommand}" />
+      
+      <ListView x:Name="issueList" ItemsSource="{Binding Issues}"
+                SelectedItem="{Binding SelectedIssue, Mode=TwoWay}" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.View>
+                <StackLayout>
+                  <Label Text="{Binding Name}" FontSize="Medium" />
+                  <Label Text="{Binding DeadLine}" FontSize="Small"/>
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
