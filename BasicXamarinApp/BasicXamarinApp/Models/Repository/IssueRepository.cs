@@ -49,5 +49,51 @@ namespace BasicXamarinApp.Android.Models.Repository
 
             return issues;
         }
+
+        public Issue EditEntity(Expression<Func<Issue, bool>> expression, Issue editedEntry)
+        {
+            Issue issue = null;
+            using (var appContext = new AppContext())
+            {
+                issue = appContext.Issues.Where(expression).FirstOrDefault();
+                if (issue != null)
+                {
+                    issue.Name = editedEntry.Name;
+                    issue.User = editedEntry.User;
+                    issue.Deadline = editedEntry.Deadline;
+                    issue.Description = editedEntry.Description;
+                    issue.UserId = editedEntry.UserId;
+                }
+
+                appContext.SaveChanges();
+            }
+
+            return issue;
+        }
+
+        public Issue DeleteEntity(Expression<Func<Issue, bool>> expression)
+        {
+            Issue issue = null;
+            using (var appContext = new AppContext())
+            {
+                issue = appContext.Issues.Where(expression).FirstOrDefault();
+                if (issue != null)
+                {
+                    appContext.Issues.Remove(issue);
+                    appContext.SaveChanges();
+                }
+            }
+
+            return issue;
+        }
+
+        public void CreateEntity(Issue newIssue)
+        {
+            using (var appContext = new AppContext())
+            {
+                appContext.Issues.Add(newIssue);
+                appContext.SaveChanges();
+            }
+        }
     }
 }

@@ -20,12 +20,14 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Models\AppContext.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\Issue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Entity\Issue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Entity\User.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Repository\IRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Repository\IssueRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Repository\UserRepository.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\IssueServices.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\IService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\IssueService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Services\UserService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\IssueListViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\IssueViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\IssueListPage.xaml.cs" />

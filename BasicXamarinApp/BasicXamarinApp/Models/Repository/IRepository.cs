@@ -15,5 +15,12 @@ namespace BasicXamarinApp.Android.Models.Repository
 
         List<TEntity> GetEntitiesByExpression(Expression<Func<TEntity, bool>> expression);
 
+        TEntity EditEntity(Expression<Func<TEntity, bool>> expression, TEntity editedEntry);
+
+        TEntity DeleteEntity(Expression<Func<TEntity, bool>> expression);
+
+
+        void CreateEntity(TEntity newEntry);
+
     }
 }

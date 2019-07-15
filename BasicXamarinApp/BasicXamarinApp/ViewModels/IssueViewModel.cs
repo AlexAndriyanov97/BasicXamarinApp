@@ -9,7 +9,7 @@ namespace App1.ViewModels
     public class IssueViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
-        IssueListViewModel IssueList;
+        private IssueListViewModel IssueList;
 
         public Issue Issue { get; private set; }
 
