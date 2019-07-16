@@ -1,21 +1,18 @@
 using App1.Model;
 using App1.Models;
-using System.Data;
+using BasicXamarinApp.Android.Annotations;
 using Microsoft.EntityFrameworkCore;
 
-namespace BasicXamarinApp.Android.Models
+namespace BasicXamarinApp.Models
 {
     public class AppContext:DbContext
     {
-        
         public DbSet<User> Users { get; set; }
-
+        
         public DbSet<Issue> Issues { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public AppContext([NotNull] DbContextOptions options) : base(options)
         {
-            optionsBuilder.UseSqlite("Filename=Vs2015WinFormsEfcSqliteCodeFirst20170304Example.sqlite");
         }
     }
-    
 }

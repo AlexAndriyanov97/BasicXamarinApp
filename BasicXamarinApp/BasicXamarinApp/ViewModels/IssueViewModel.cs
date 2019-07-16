@@ -6,9 +6,8 @@ using System.Collections.Generic;
 
 namespace App1.ViewModels
 {
-    public class IssueViewModel : INotifyPropertyChanged
+    public class IssueViewModel : Tools
     {
-        public event PropertyChangedEventHandler PropertyChanged;
         private IssueListViewModel IssueList;
 
         public Issue Issue { get; private set; }
@@ -26,7 +25,7 @@ namespace App1.ViewModels
                 if (IssueList != value)
                 {
                     IssueList = value;
-                    OnPropertyChanged(nameof(ListViewModel));
+                    OnPropertyChanged();
                 }
             }
         }
@@ -39,7 +38,7 @@ namespace App1.ViewModels
                 if (Issue.Name != value)
                 {
                     Issue.Name = value;
-                    OnPropertyChanged("Name");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -52,7 +51,7 @@ namespace App1.ViewModels
                 if (Issue.Description != value)
                 {
                     Issue.Description = value;
-                    OnPropertyChanged("Description");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -73,12 +72,6 @@ namespace App1.ViewModels
         public bool IsValid
         {
             get { return ((!string.IsNullOrEmpty(Name.Trim()))); }
-        }
-
-        
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

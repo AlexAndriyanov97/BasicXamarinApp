@@ -1,52 +1,93 @@
 ﻿using BasicXamarinApp.Android.Models.Repository;
 using BasicXamarinApp.Models.Entity;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
+using App1.Model;
+using App1.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BasicXamarinApp.Models.Repository
 {
-    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : class, IHaveId<int>
+    public class EfReadRepository<TEntity> : DbContext, IRepository<TEntity>
+        where TEntity : class, IHaveId<int>
     {
-        private DbContext _dbcontex;
 
+        private AppContext _dbContext;
+        
         private DbSet<TEntity> _dbSet;
 
-        public EfRepository()
+        public EfReadRepository(AppContext dbContext, DbSet<TEntity> dbSet)
         {
-            
+            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+            _dbSet = dbSet ?? throw new ArgumentException(nameof(dbSet));
         }
 
-        public TEntity DeleteEntity(Expression<Func<TEntity, bool>> expression)
+        public async Task<TEntity> DeleteEntityAsync(Expression<Func<TEntity, bool>> expression)
         {
             TEntity entity = null;
-            using (var appContext = new AppContext())
+            entity = await _dbSet.Where(expression).FirstOrDefaultAsync();
+            if (entity != null)
             {
-                entity = _dbSet.Where(expression).FirstOrDefault();
-                if (entity != null)
-                {
-                    appContext.Users.Remove(entity);
-                    appContext.SaveChanges();
-                }
+                _dbSet.Remove(entity);
             }
 
+            await _dbContext.SaveChangesAsync();
             return entity;
         }
 
-        public IList<TEntity> GetAllEntries()
+        public async Task<IList<TEntity>> GetAllEntriesAsync()
         {
-            return _dbSet.ToList();
+            return await _dbSet.ToListAsync();
         }
 
-        public List<TEntity> GetEntitiesByExpression(Expression<Func<TEntity, bool>> expression)
+        public async Task<IList<TEntity>> GetEntitiesByExpressionAsync(Expression<Func<TEntity, bool>> expression)
         {
-            throw new NotImplementedException();
+            var users = new List<TEntity>();
+            users = await _dbSet.Where(expression).ToListAsync();
+            return users;
         }
 
-        public void SaveEntity(TEntity newEntry)
+        public async void SaveEntityAsync(TEntity newEntry)
         {
-            throw new NotImplementedException();
+            var haveEntity = await _dbSet.FirstOrDefaultAsync(x => x.Id == newEntry.Id);
+            if (haveEntity == null)
+            {
+                _dbSet.Add(newEntry);
+            }
+            else
+            {
+                _dbSet.Remove(haveEntity);
+                _dbSet.Add(newEntry);
+            }
+
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async void DeleteEntitiesAsync(Expression<Func<TEntity, bool>> expression)
+        {
+            
+            IList<TEntity> entyties = null;
+            entyties = await _dbSet.Where(expression).ToListAsync();
+            foreach (var entity in entyties)
+            {
+                if (entity != null)
+                {
+
+                    _dbSet.Remove(entity);
+                }
+            }
+
+            await _dbContext.SaveChangesAsync();
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite("Filename=Vs2015WinFormsEfcSqliteCodeFirst20170304Example.sqlite");
         }
     }
 }

@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 using App1.Model;
 using BasicXamarinApp.Android.Models.Repository;
 
@@ -8,26 +10,20 @@ namespace BasicXamarinApp.Android.Models.Services
     public class IssueService : IService<Issue>
     {
         private IRepository<Issue> _repository;
-        
+
         public IssueService(IRepository<Issue> repository)
         {
             _repository = repository;
         }
 
-
-        public Issue EditEntry(Expression<Func<Issue, bool>> expression,Issue editedIssue)
+        public async Task<IList<Issue>> LogIn(int id)
         {
-            return _repository.EditEntity(expression, editedIssue);
+            return await _repository.GetEntitiesByExpressionAsync(x => x.UserId == id);
         }
 
-        public void CreateEntity(Issue createdIssue)
+        public void LogOut(int id)
         {
-            _repository.CreateEntity(createdIssue);
-        }
-
-        public Issue DeleteEntity(Expression<Func<Issue, bool>> expression)
-        {
-            return _repository.DeleteEntity(expression);
+            _repository.DeleteEntitiesAsync(x => x.UserId == id);
         }
     }
 }

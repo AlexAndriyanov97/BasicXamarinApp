@@ -76,7 +76,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -614,7 +614,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -1152,7 +1152,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -1690,7 +1690,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -2156,7 +2156,7 @@
   },
   "libraries": {
     "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "sha512": "yWWeTbGCzBOlRPWDCIxiTZW1ecZiMbao0ZT97KKEWdBhrLvUqU8RdzkhzuCRQzvoxzxlR7vytO43OOgFdkxv6g==",
       "type": "package",
       "path": "microsoft.csharp/4.5.0",
       "files": [
@@ -2294,7 +2294,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Design/2.2.6": {
-      "sha512": "ouDKXTXY+ItF+PAK/jkp+Cp6Ve8Pd9sblyqOErjaiK7CzeN28peFsv3NfDeoqTAXXCCKEyuv/iXYtLs4r3wI0w==",
+      "sha512": "xPLFcWOTbNLDI5vdbGWVSQI5TuS5KiCn+OF5TyiRCLJC5KdxuQsUeAlDHRmZuAOXXiwitDpvOdXmK3A/nPOVuA==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.design/2.2.6",
       "files": [
@@ -2349,7 +2349,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Tools/2.2.6": {
-      "sha512": "L6vi+eT++Q+2jSIWtOB1LD4yB4dR1nQrWg/Wx1kArPo0rD8D9R4uD6LU5OFz3U/ibjADxLgmQmYDqjusrOI7SA==",
+      "sha512": "jf6BEmKub7dd1y2yN0asHNdCKWVpiiCmh9RnFTFZ9ZERg1Vgv980xyegsduIwzasEwRkyXC3JDXvmFqfjm3nBQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.tools/2.2.6",
       "hasTools": true,
@@ -2927,7 +2927,7 @@
       ]
     },
     "Xamarin.Forms/3.3.0.912540": {
-      "sha512": "3809beGmhcJ1X53i2lUvUL7N2sLiFtIQhCnXn5SOnnZuoKjdm0l25vylHA0qSRjitO+o5eH+hnqACUbwuEMnSg==",
+      "sha512": "Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
       "type": "package",
       "path": "xamarin.forms/3.3.0.912540",
       "files": [
@@ -2956,11 +2956,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -3081,20 +3083,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maintenance\\.nuget\\packages\\": {}
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maintenance\\Desktop\\New folder\\BasicXamarinApp\\BasicXamarinApp\\BasicXamarinApp.iOS\\BasicXamarinApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\Новая папка (2)\\BasicXamarinApp\\BasicXamarinApp\\BasicXamarinApp.iOS\\BasicXamarinApp.iOS.csproj",
       "projectName": "BasicXamarinApp.iOS",
-      "projectPath": "C:\\Users\\maintenance\\Desktop\\New folder\\BasicXamarinApp\\BasicXamarinApp\\BasicXamarinApp.iOS\\BasicXamarinApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\maintenance\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maintenance\\Desktop\\New folder\\BasicXamarinApp\\BasicXamarinApp\\BasicXamarinApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\Новая папка (2)\\BasicXamarinApp\\BasicXamarinApp\\BasicXamarinApp.iOS\\BasicXamarinApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\Новая папка (2)\\BasicXamarinApp\\BasicXamarinApp\\BasicXamarinApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\maintenance\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

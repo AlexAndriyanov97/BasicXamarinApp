@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Program Files (x86)\Android\android-sdk\platforms\android-27\data\res" t="IncludeRecursive" />
     <e p="C:\Users\Alex\.nuget\packages\xamarin.android.arch.lifecycle.runtime\1.0.3.1\proguard" t="Include">
       <e p="proguard.txt" t="Include" />
     </e>
@@ -23,10 +22,12 @@
     <e p="C:\Users\Alex\.nuget\packages\xamarin.android.support.v7.recyclerview\27.0.2.1\proguard" t="Include">
       <e p="proguard.txt" t="Include" />
     </e>
-    <e p="C:\Users\Alex\.Rider2018.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Alex\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Alex\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_BasicXamarinApp.984687957.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Alex\RiderProjects\BasicXamarinApp" t="IncludeFlat">
+    <e p="C:\Users\Alex\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\.Rider2019.1\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_BasicXamarinApp.-1442220524.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alex\AppData\local\Android\Sdk\platforms\android-29\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp" t="IncludeFlat">
       <e p="BasicXamarinApp\BasicXamarinApp" t="IncludeRecursive">
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
@@ -36,18 +37,31 @@
         <e p="MainPage.xaml.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="AppContext.cs" t="Include" />
-          <e p="Issue.cs" t="Include" />
+          <e p="Entity" t="Include">
+            <e p="IHaveId.cs" t="Include" />
+            <e p="Issue.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
           <e p="Repository" t="Include">
-            <e p="IRepository.cs" t="Include" />
+            <e p="EfRepository.cs" t="Include" />
+            <e p="IReadRepository.cs" t="Include" />
             <e p="IssueRepository.cs" t="Include" />
+            <e p="IWriteRepository.cs" t="Include" />
             <e p="UserRepository.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
-            <e p="IService.cs" t="Include" />
-            <e p="IssueService.cs" t="Include" />
-            <e p="UserService.cs" t="Include" />
+            <e p="IReadService.cs" t="Include" />
+            <e p="IssueReadService.cs" t="Include" />
+            <e p="IssueSpecification.cs" t="Include" />
+            <e p="Specification" t="Include">
+              <e p="AndSpecification.cs" t="Include" />
+              <e p="OrSpecification.cs" t="Include" />
+              <e p="ParameterReplacer.cs" t="Include" />
+              <e p="Specification.cs" t="Include" />
+            </e>
+            <e p="UserReadService.cs" t="Include" />
+            <e p="UserSpecifications.cs" t="Include" />
           </e>
-          <e p="User.cs" t="Include" />
         </e>
         <e p="Settings.config" t="Include" />
         <e p="ViewModels" t="Include">
@@ -85,6 +99,7 @@
             <e p="styles.xml" t="Include" />
           </e>
         </e>
+        <e p="Views" t="Include" />
       </e>
       <e p="BasicXamarinApp\BasicXamarinApp.iOS" t="IncludeRecursive">
         <e p="AppDelegate.cs" t="Include" />
@@ -105,6 +120,7 @@
         <e p="Resources" t="Include">
           <e p="LaunchScreen.storyboard" t="Include" />
         </e>
+        <e p="Views" t="Include" />
       </e>
       <e p="BasicXamarinApp.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

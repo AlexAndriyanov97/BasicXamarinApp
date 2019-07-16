@@ -7,21 +7,18 @@ using Xamarin.Forms;
 
 namespace App1.ViewModels
 {
-    public class IssueListViewModel:INotifyPropertyChanged
+    public class IssueListViewModel : Tools
     {
         public ObservableCollection<IssueViewModel> Issues { get; set; }
- 
-        public event PropertyChangedEventHandler PropertyChanged;
- 
         public ICommand CreateIssueCommand { protected set; get; }
         public ICommand DeleteIssueCommand { protected set; get; }
         public ICommand SaveIssueCommand { protected set; get; }
         public ICommand BackCommand { protected set; get; }
-        
+
         IssueViewModel selectedIssue;
- 
-        public INavigation Navigation { get; set;}
- 
+
+        public INavigation Navigation { get; set; }
+
         public IssueListViewModel()
         {
             Issues = new ObservableCollection<IssueViewModel>();
@@ -30,7 +27,7 @@ namespace App1.ViewModels
             SaveIssueCommand = new Command(SaveIssue);
             BackCommand = new Command(Back);
         }
- 
+
         public IssueViewModel SelectedIssue
         {
             get { return selectedIssue; }
@@ -38,46 +35,43 @@ namespace App1.ViewModels
             {
                 if (selectedIssue != value)
                 {
-                    IssueViewModel tmpIssue = value;
+                    var tmpIssue = value;
                     selectedIssue = null;
-                    OnPropertyChanged("SelectedIssue");
+                    OnPropertyChanged(nameof(SelectedIssue));
                     Navigation.PushAsync(new IssuePage(tmpIssue));
                 }
             }
         }
-        protected void OnPropertyChanged(string propName)
-        {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(propName));
-        }
- 
+
         private void CreateIssue()
         {
-            Navigation.PushAsync(new IssuePage(new IssueViewModel() { ListViewModel = this }));
+            Navigation.PushAsync(new IssuePage(new IssueViewModel() {ListViewModel = this}));
         }
-        
+
         private void Back()
         {
             Navigation.PopAsync();
         }
-        
+
         private void SaveIssue(object issueObject)
         {
-            IssueViewModel issue = issueObject as IssueViewModel;
+            var issue = issueObject as IssueViewModel;
             if (issue != null && issue.IsValid)
             {
                 Issues.Add(issue);
             }
+
             Back();
         }
-        
+
         private void DeleteIssue(object issueObject)
         {
-            IssueViewModel issue = issueObject as IssueViewModel;
+            var issue = issueObject as IssueViewModel;
             if (issue != null)
             {
                 Issues.Remove(issue);
             }
+
             Back();
         }
     }
