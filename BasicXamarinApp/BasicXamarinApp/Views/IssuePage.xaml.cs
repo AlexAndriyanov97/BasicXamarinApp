@@ -1,13 +1,8 @@
-﻿using App1.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BasicXamarinApp.ViewModels;
 
 using Xamarin.Forms;
 
-namespace App1.Views
+namespace BasicXamarinApp.Views
 {
     public partial class IssuePage : ContentPage
     {

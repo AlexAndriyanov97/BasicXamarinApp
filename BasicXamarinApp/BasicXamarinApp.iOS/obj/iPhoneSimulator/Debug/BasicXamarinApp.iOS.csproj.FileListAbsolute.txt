@@ -1,0 +1,10 @@
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\BasicXamarinApp.iOS.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\App.xaml.g.cs
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\MainPage.xaml.g.cs
+C:\Users\Alex\Desktop\Новая папка (2)\BasicXamarinApp\BasicXamarinApp\BasicXamarinApp.iOS\obj\iPhoneSimulator\Debug\BasicXamarinApp.iOS.csproj.CoreCompileInputs.cache

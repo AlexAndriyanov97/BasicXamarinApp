@@ -1,14 +1,14 @@
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using App1.Model;
+using BasicXamarinApp.Model;
 using System.Collections.Generic;
 
-namespace App1.ViewModels
+namespace BasicXamarinApp.ViewModels
 {
     public class IssueViewModel : Tools
     {
-        private IssueListViewModel IssueList;
+        private IssueListViewModel _issueList;
 
         public Issue Issue { get; private set; }
 
@@ -19,12 +19,12 @@ namespace App1.ViewModels
 
         public IssueListViewModel ListViewModel
         {
-            get { return IssueList; }
+            get { return _issueList; }
             set
             {
-                if (IssueList != value)
+                if (_issueList != value)
                 {
-                    IssueList = value;
+                    _issueList = value;
                     OnPropertyChanged();
                 }
             }

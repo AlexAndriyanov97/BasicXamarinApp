@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using App1.Models;
+using BasicXamarinApp.Models;
 using BasicXamarinApp.Android.Models.Repository;
 
 namespace BasicXamarinApp.Android.Models.Services

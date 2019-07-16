@@ -1,5 +1,5 @@
 ﻿using System;
-using App1.Views;
+using BasicXamarinApp.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

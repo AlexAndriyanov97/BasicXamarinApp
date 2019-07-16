@@ -2,10 +2,10 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using App1.Views;
+using BasicXamarinApp.Views;
 using Xamarin.Forms;
 
-namespace App1.ViewModels
+namespace BasicXamarinApp.ViewModels
 {
     public class IssueListViewModel : Tools
     {

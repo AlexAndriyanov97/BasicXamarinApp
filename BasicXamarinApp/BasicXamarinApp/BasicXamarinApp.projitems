@@ -38,6 +38,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\IssueViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Tools.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\UserListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\UserViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\IssueListPage.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\IssuePage.xaml.cs" />
   </ItemGroup>

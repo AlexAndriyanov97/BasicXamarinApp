@@ -7,8 +7,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using App1.Model;
-using App1.Models;
+using BasicXamarinApp.Model;
+using BasicXamarinApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BasicXamarinApp.Models.Repository

@@ -1,6 +1,5 @@
-using App1.Model;
-using App1.Models;
-using BasicXamarinApp.Android.Annotations;
+using BasicXamarinApp.Model;
+using BasicXamarinApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BasicXamarinApp.Models
@@ -11,7 +10,7 @@ namespace BasicXamarinApp.Models
         
         public DbSet<Issue> Issues { get; set; }
 
-        public AppContext([NotNull] DbContextOptions options) : base(options)
+        public AppContext( DbContextOptions options) : base(options)
         {
         }
     }

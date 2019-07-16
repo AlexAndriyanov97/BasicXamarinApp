@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using App1.Model;
+using BasicXamarinApp.Model;
 using BasicXamarinApp.Models.Entity;
 
-namespace App1.Models
+namespace BasicXamarinApp.Models
 {
     public class User : IHaveId<int>
     {

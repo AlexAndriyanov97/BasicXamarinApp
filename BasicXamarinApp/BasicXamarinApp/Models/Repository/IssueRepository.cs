@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using App1.Model;
+using BasicXamarinApp.Model;
 using BasicXamarinApp.Models.Repository;
 using Microsoft.EntityFrameworkCore;
 using AppContext = BasicXamarinApp.Models.AppContext;

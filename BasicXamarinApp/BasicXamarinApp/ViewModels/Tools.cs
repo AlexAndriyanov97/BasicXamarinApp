@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace App1.ViewModels
+namespace BasicXamarinApp.ViewModels
 {
     public class Tools: INotifyPropertyChanged
     {

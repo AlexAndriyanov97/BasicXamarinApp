@@ -1,8 +1,8 @@
-﻿using App1.ViewModels;
+﻿using BasicXamarinApp.ViewModels;
 
 using Xamarin.Forms;
 
-namespace App1.Views
+namespace BasicXamarinApp.Views
 {
     public partial class IssueListPage : ContentPage
     {
