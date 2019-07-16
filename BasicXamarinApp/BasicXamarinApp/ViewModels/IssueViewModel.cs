@@ -26,7 +26,7 @@ namespace App1.ViewModels
                 if (IssueList != value)
                 {
                     IssueList = value;
-                    OnPropertyChanged("ListViewModel");
+                    OnPropertyChanged(nameof(ListViewModel));
                 }
             }
         }
@@ -65,7 +65,7 @@ namespace App1.ViewModels
                 if (Issue.Deadline != value)
                 {
                     Issue.Deadline = value;
-                    OnPropertyChanged("Deadline");
+                    OnPropertyChanged();
                 }
             }
         }

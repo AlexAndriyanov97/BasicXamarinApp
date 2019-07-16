@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using App1.Model;
+using BasicXamarinApp.Models.Entity;
 
 namespace App1.Models
 {
-    public class User
+    public class User : IHaveId<int>
     {
         public int Id { get; set; }
         
